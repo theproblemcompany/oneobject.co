@@ -1,14 +1,18 @@
 body {
   overflow: hidden;
   width: 120vw !important;
+  margin: 0 !important;
+  border: 0 !important;
 }
 
 .background {
-  width: 110vw;
+  width: 100vw;
   height: 100vh;
   background-color: black;
   background-image: url("./cover.png");
-  background-size: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -48,4 +52,34 @@ h3 {
   opacity: 0.5;
   margin-left: -1vw !important;
   margin-top: 0.5vh !important;
+}
+
+.flexable {
+  display: flex;
+  flex-direction: row;
+  width: 500px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #49403d;
+  }
+  h1 {
+    size: 5rem;
+    margin-top: 10vh !important;
+  }
+  h2 {
+    text-wrap: wrap;
+  }
+  .headline {
+    width: 80vw !important;
+    margin-left: 15px !important;
+  }
+  .flexable {
+    display: flex;
+    flex-direction: column;
+    width: 90vw !important;
+  }
 }/*# sourceMappingURL=main.css.map */
