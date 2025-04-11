@@ -62,9 +62,13 @@ h3 {
 
 @media only screen and (max-width: 600px) {
   body {
-    height: 100vh;
+    height: auto;
     overflow: hidden;
     background-color: #49403d;
+  }
+  .background {
+    height: auto !important;
+    overflow-y: scroll !important;
   }
   h1 {
     size: 5rem;
@@ -76,6 +80,7 @@ h3 {
   .headline {
     width: 80vw !important;
     margin-left: 15px !important;
+    padding-left: 0 !important;
   }
   .flexable {
     display: flex;
