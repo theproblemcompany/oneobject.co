@@ -1,0 +1,51 @@
+body {
+  overflow: hidden;
+  width: 120vw !important;
+}
+
+.background {
+  width: 110vw;
+  height: 100vh;
+  background-color: black;
+  background-image: url("./cover.png");
+  background-size: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.headline {
+  width: 100vw;
+  height: 100vh;
+  padding-left: 10vw;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 8rem;
+  color: white;
+  margin-top: 30vh !important;
+}
+
+h2 {
+  color: white;
+  margin-top: -5vh !important;
+  font-weight: 200;
+  margin-bottom: 5vh !important;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin-top: 5vh !important;
+  color: white;
+  font-weight: 200 !important;
+  opacity: 0.5;
+}
+
+.form {
+  width: 100vw;
+  height: 40vh;
+  opacity: 0.5;
+  margin-left: -1vw !important;
+  margin-top: 0.5vh !important;
+}/*# sourceMappingURL=main.css.map */
